@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:background="@color/colorBackground"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="100dp"
+        >
+        <TextView 
+            android:id="@+id/termin"
+            android:text="Időpont"
+            android:textSize="40dp"
+            android:textColor="@color/colorText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/churchcomment2"
+            android:text="Település"
+            android:textSize="20dp"
+            android:textColor="@color/colorText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:id="@+id/weekcommnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/churchcomment2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorText2"
+            />
+        <TextView
+            android:id="@+id/comment"
+            android:text="Megjegyzés"
+            android:textSize="14dp"
+            android:textColor="@color/colorText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/weekcommnet"
+            android:layout_alignParentLeft="true"
+            />
+    </RelativeLayout>
+    
+    
+</LinearLayout>
